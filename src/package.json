@@ -1,0 +1,29 @@
+{
+  "name": "hamiltron",
+  "version": "1.0.0",
+  "description": "A random hamilton quote generator",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mewse/hamiltron.git"
+  },
+  "keywords": [
+    "alexander",
+    "hamilton"
+  ],
+  "author": "Matt Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mewse/hamiltron/issues"
+  },
+  "homepage": "https://github.com/Mewse/hamiltron#readme",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "winston": "^3.2.1"
+  }
+}
